@@ -18,3 +18,4 @@ Route::get('/utama', function () {
     return view('welcome');
 });
 Route::resource('ppdb', SiswaController::class);
+Route::resource('aaa', SiswaController::class);
